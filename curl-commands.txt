@@ -1,0 +1,9 @@
+curl -X GET localhost:8080/report
+
+curl -k -H "Content-Type: application/json" -X PUT 
+-d '{
+“characterPhrase”: “CHARACTER_PHRASE”,
+“planetName”: “PLANET_NAME”
+}' localhost:8080/report 
+
+
